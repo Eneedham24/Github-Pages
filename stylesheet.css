@@ -1,0 +1,33 @@
+body{
+	/*background-color: skyblue;*/ 
+	/*-webkit-box-shadow: 10px 10px 5px #888888;*/
+	box-shadow: inset 0 0 490px silver;
+}
+
+
+h2 {
+
+	color:blue;
+}
+
+.img {
+
+	width: 200px;
+	height: 250px;
+	float: right;
+	transform:rotate(-9deg);
+	-webkit-box-shadow: 0 0 5px 2px #282a2d;
+    position: relative;
+  
+	}
+
+#bord{
+    border-left: 2px solid black;
+    float: left;    
+    
+}
+
+.description{
+    font-family: sans-serif;
+    font-style: italic;
+}
