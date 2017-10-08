@@ -1,16 +1,18 @@
 body{
-	/*background-color: skyblue;*/ 
-	/*-webkit-box-shadow: 10px 10px 5px #888888;*/
-	box-shadow: inset 0 0 490px silver;
+	background-color: silver;
+}
+
+h1{
+    border-bottom: solid 2px black;
 }
 
 
-h2 {
 
-	color:blue;
+.contact_container{
+    width:1600px;
 }
 
-.img {
+.photo {
 
 	width: 200px;
 	height: 250px;
@@ -18,16 +20,98 @@ h2 {
 	transform:rotate(-9deg);
 	-webkit-box-shadow: 0 0 5px 2px #282a2d;
     position: relative;
+    margin-top: -50px;
   
 	}
 
-#bord{
-    border-left: 2px solid black;
-    float: left;    
-    
-}
+
 
 .description{
     font-family: sans-serif;
     font-style: italic;
+}
+
+
+.education{
+    float: left;
+    width: 300px;
+}
+
+#bord{
+    
+    float:left;
+    
+    border-left: solid black 2px;
+}
+
+.skill{
+    float: left;
+    width: 300px;
+}
+#bord3{
+    
+    float:left;
+    
+    border-left: solid black 2px;
+}
+
+.experience{
+    float: left;
+    width: 300px;    
+}
+
+#bord4{
+    
+    float:left;
+    
+    border-left: solid black 2px;
+}   
+
+.achievment{
+    float:left;
+    width:300px;
+    
+}
+#bord2{
+    float: left;
+    border-left: solid black 2px;
+}
+
+.hobbies{
+    float:left;
+    width:300px;
+    
+}
+#bord5{
+    float: left;
+    border-left: solid black 2px;
+}
+
+.reference{
+    float:left;
+    width:300px;
+    
+}
+#bord6{
+    float: left;
+    border-left: solid black 2px;
+}
+
+h3{
+    margin-left: 30px;
+}
+.h2{
+    margin-left: 30px;
+}
+h2{
+    margin-left: 30px;
+}
+h4{
+    margin-left: 30px;
+}
+li{
+    margin-left: 30px;
+}
+.head{
+    font-weight: bold;
 }
